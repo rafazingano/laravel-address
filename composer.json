@@ -1,0 +1,35 @@
+{
+    "name": "confrariaweb/laravel-address",
+    "version": "1.0.0",
+    "description": "Address pack for laravel framework",
+    "keywords": [
+        "address",
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "confrariaweb@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "ConfrariaWeb\\Address\\": "src/",
+            "ConfrariaWeb\\Address\\Databases\\Seeds\\": "databases/Seeds"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConfrariaWeb\\Address\\Providers\\AddressServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
